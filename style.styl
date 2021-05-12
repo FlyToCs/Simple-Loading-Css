@@ -1,0 +1,49 @@
+// visit stylus at  https://stylus-lang.com/
+
+.loading 
+    width 200px
+    height 200px
+    background-color rgb(255, 255, 255)
+    margin 100px
+    border 20px rgb(204, 204, 204) solid
+    border-radius 50%
+    border-top 20px red solid
+    animation-name loading
+    animation-duration 2s
+    animation-iteration-count infinite
+    animation-timing-function linear
+  
+// Browsers Support
+
+@-moz-keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
